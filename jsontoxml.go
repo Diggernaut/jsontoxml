@@ -51,7 +51,10 @@ func init() {
 	cleanKeys["wbr"] = "wbr_safe"
 	cleanKeys["image"] = "image_safe"
 	doident = true
+<<<<<<< HEAD
 	ident = 0
+=======
+>>>>>>> 5a63bc002c901951d2bf9e879767e98010471d11
 }
 func clear(b []byte) string {
 	key := string(b)
